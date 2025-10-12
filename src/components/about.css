@@ -259,7 +259,7 @@
   }
   .about-mission p {
     font-size: 1rem;
-    width:100%;
+    width:80%;
   }
   .about-promo{
     grid-template-columns:1fr;
@@ -269,9 +269,6 @@
   .about-mission p{
     padding-bottom:10px;
     margin-bottom:10px;
-  }
-  .about-promo{
-    padding:10px 20px;
   }
   .about-promo img{
   width: 100%;
