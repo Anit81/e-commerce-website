@@ -177,7 +177,7 @@
 
 @media (max-width: 480px) {
   .hero-section{
-    height:100vh;
+    height:80vh;
   }
   .hero-content h1 {
     font-size: 1.6rem;
