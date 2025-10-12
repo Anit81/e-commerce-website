@@ -178,13 +178,13 @@
 @media (max-width: 480px) {
   .hero-section{
     height:60vh;
-    margin-top:15px
+    margin-top:0px
   }
   .hero-content h1 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .hero-content p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .promo-banner img {
     height: 200px;
@@ -196,5 +196,5 @@
     margin-top: x;
   }
   .featured-categories{
-    font-size:29px;
+    font-size:15px;
 }
