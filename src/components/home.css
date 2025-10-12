@@ -198,8 +198,13 @@
   .featured-title{
     font-size:19px;
   }
-  featured-categories {
-  column-gap: 40px;   
-  }
   
+  .featured-categories { 
+  row-gap:20px;
+}
+
+.category-card img {
+  width: 100%;
+  max-height: 500px;
+ }
 }
