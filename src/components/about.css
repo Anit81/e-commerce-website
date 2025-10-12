@@ -1,0 +1,259 @@
+.about {
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.about-header {
+  background-image: url('images/30487f0ddedd4779e5579889f9b3f3be.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;    
+  background-position: cente;    
+  display: flex;        
+  align-items: center; 
+   justify-content: center;        
+  text-align: center;
+  padding: 60px 20px;
+  height:100vh;
+  color: white;
+  margin-top: 100px;
+}
+
+
+.about-header h1 {
+  font-size: 4rem;
+  padding-bottom: 10px;
+  
+}
+.about h2{
+  text-align: center;
+}
+.about p{
+  text-align: center;
+}
+.about button{
+  display: flex;
+  margin: 0 auto;
+}
+
+
+
+/* Stats */
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  text-align: center;
+  background: #222;
+  padding: 40px 20px;
+}
+
+.about-stats h2 {
+  font-size: 2rem;
+  color: #f5c518;
+}
+
+.about-stats p {
+  color: #ccc;
+}
+
+/* Story */
+.about-story {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 60px 20px;
+}
+
+.about-story img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.about-story div {
+  text-align: left;
+}
+
+.about-story h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.about-story p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.about-story .brand-name {
+  color: #f06292;
+  font-weight: bold;
+}
+
+.about-story button {
+  background: #f06292;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.about-story button:hover {
+  background: #e91e63;
+}
+
+/* Benefits */
+.about-benefits {
+  background: #222;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-benefits h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #f5c518;
+}
+
+.benefit-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.benefit-items h3 {
+  margin-bottom: 10px;
+}
+
+.benefit-items p {
+  color: #aaa;
+}
+
+.about-mission {
+  background-color: #111;   /* dark background */
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-mission h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ff4f9a; /* highlight color */
+}
+
+.about-mission p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #ddd;
+}
+
+.brand-name {
+  font-weight: bold;
+  color: #ff4f9a;
+}
+
+.about-lifestyle {
+  width: 100%;
+  height: 0vh; 
+  overflow: hidden;
+  margin: 40px 0;
+}
+
+.about-lifestyle .lifestyle-img {
+  width:100%;
+  height: 100%;
+  object-fit: cover;   /* keeps proportions while filling space */
+  border-radius: 10px; /* smooth edges */
+}
+
+
+/* Promo */
+.about-promo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 60px 20px;
+}
+.about-promo img{
+  width: 50%;
+}
+.about-promo div {
+  background: #333;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.about-promo h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.about-promo button {
+  background: #f06292;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.about-promo button:hover {
+  background: #e91e63;
+}
+
+@media (max-width: 1024px) {
+  .about-header h1 {
+    font-size: 3rem;
+  }
+  .about-story {
+    grid-template-columns: 1fr; /* stack image + text */
+    text-align: center;
+  }
+  .about-story div {
+    text-align: center;
+  }
+  .about-promo {
+    grid-template-columns: 1fr; /* stack promos */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about-header {
+    padding: 40px 10px;
+    height: 60vh; 
+  }
+  .about-header h1 {
+    font-size: 2.2rem;
+  }
+  .about-mission h2 {
+    font-size: 2rem;
+  }
+  .about-mission p {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .about-header {
+    margin-top: 60px;
+    height: 50vh;
+  }
+  .about-header h1 {
+    font-size: 1.8rem;
+  }
+  .about-story h2 {
+    font-size: 1.5rem;
+  }
+  .about-promo h3 {
+    font-size: 1.2rem;
+  }
+}
