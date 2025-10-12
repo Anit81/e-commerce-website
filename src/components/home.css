@@ -187,7 +187,8 @@
     font-size: 0.7rem;
   }
   .promo-banner img {
-    height: 200px;
+    height: 400px;
+   width:100%
   }
   .promo-text {
     font-size: 1.2rem;
