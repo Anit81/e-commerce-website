@@ -210,13 +210,9 @@
   .new-arrival-grid {
   grid-template-columns: 1fr; 
   gap: 20px; 
-  }
-  .new-arrival-grid div{
-    padding:20px;
-  }
-.new-arrival-grid img {
-  width: 100%;
+}
+ .new-arrival-grid img {
+  width: 120%;
   height: 260px;
-  
  }
 }
