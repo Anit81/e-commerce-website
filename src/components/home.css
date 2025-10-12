@@ -181,7 +181,7 @@
     margin-top:30px
   }
   .hero-content h1 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
   .hero-content p {
     font-size: 0.9rem;
@@ -195,4 +195,6 @@
   .hero-section{
     margin-top: x;
   }
+  .featured-title{
+    font-size:29px;
 }
