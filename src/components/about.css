@@ -263,5 +263,11 @@
   }
   .about-promo{
     grid-template-columns:1fr;
+    width:100%;
+    height:80%;
+  }
+  .about-mission p{
+    padding-bottom:10px;
+    margin-bottom:10px;
   }
 }
