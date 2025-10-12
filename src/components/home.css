@@ -178,10 +178,10 @@
 @media (max-width: 480px) {
   .hero-section{
     height:60vh;
-    width:100%;
+    margin-top:30px
   }
   .hero-content h1 {
-    font-size: 1.6rem;
+    font-size: 0.9rem;
   }
   .hero-content p {
     font-size: 0.9rem;
