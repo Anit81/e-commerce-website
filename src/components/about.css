@@ -260,6 +260,7 @@
   .about-mission p {
     font-size: 1rem;
     width:80%;
+    text-align:center;
   }
   .about-promo{
     grid-template-columns:1fr;
