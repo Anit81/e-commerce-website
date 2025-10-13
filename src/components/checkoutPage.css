@@ -104,9 +104,8 @@ h2{
 @media(max-width:480px){
     .checkout-container{
       flex-direction:column;
-      row-gap:30px;
-      column-gap:30px;
-    margin:20px;
+      row-gap:10px;
+      column-gap:20px;
       align-items:center;
     } 
 }
