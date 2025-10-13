@@ -170,11 +170,8 @@ border: none;
   .cart-right P{
     font-size: 12px;
   }
-  .cart-right button{
+  .checkout-btn{
     background-color:green;
 }
-  decreament-btn, .increament-btn{
-    background-color:green;
-    padding:10px;
-  }
+  
 }
