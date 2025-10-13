@@ -159,7 +159,7 @@ border: none;
   .cart-page{
   flex-direction: column;
 }
-  .cart-item-details p{
+  .cart-left p{
   font-size: 12px;
 }
 
