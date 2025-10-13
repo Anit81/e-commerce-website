@@ -159,7 +159,7 @@ border: none;
   .cart-page{
   flex-direction: column;
 }
-  .cart-item-name {
+  .cart-item-details p{
   font-weight: 8px;
 }
 
