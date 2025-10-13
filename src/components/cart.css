@@ -159,4 +159,12 @@ border: none;
   .cart-page{
   flex-direction: column;
 }
+  .cart-item-name {
+  font-weight: 12px;
+}
+
+.cart-item-price,
+.cart-item-qty {
+  font-size:12px;
+}
 }
