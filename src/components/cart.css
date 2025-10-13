@@ -160,11 +160,11 @@ border: none;
   flex-direction: column;
 }
   .cart-item-name {
-  font-weight: 12px;
+  font-weight: 8px;
 }
 
 .cart-item-price,
 .cart-item-qty {
-  font-size:12px;
+  font-size:8px;
 }
 }
