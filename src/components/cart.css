@@ -85,7 +85,7 @@
 .checkout-btn {
   width: 100%;
   padding: 0.7rem;
-  background-color: #4CAF50;
+  background-color: green;
   color: white;
   font-weight: bold;
   border: none;
@@ -170,8 +170,6 @@ border: none;
   .cart-right P{
     font-size: 12px;
   }
-  .checkout-btn{
-    background-color:green;
-}
+  
   
 }
