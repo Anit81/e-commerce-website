@@ -94,8 +94,12 @@ h2{
   }
   .checkout-left, .checkout-right {
     width: 100%;
+    
   }
   .card-row {
     flex-direction: column;
+  }
+  .checkout-left{
+    margin-right:20px;
   }
 }
