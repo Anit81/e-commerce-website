@@ -104,5 +104,6 @@ h2{
 @media(max-width:480px){
     .checkout-left{
     margin-left:50px;
+      align-items:center;
     } 
 }
