@@ -102,8 +102,11 @@ h2{
 
 }
 @media(max-width:480px){
-    .checkout-left{
-    margin-right:40px;
+    .checkout-container{
+      flex-direction:column;
+      row-gap:30px;
+      column-gap:30px;
+    margin:20px;
       align-items:center;
     } 
 }
