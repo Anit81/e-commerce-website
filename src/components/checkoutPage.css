@@ -103,7 +103,7 @@ h2{
 }
 @media(max-width:480px){
     .checkout-left{
-    margin-right:30px;
+    margin-right:40px;
       align-items:center;
     } 
 }
