@@ -99,7 +99,10 @@ h2{
   .card-row {
     flex-direction: column;
   }
-  .checkout-left{
+
+}
+@media(max-width:480px){
+    .checkout-left{
     margin-right:20px;
-  }
+    } 
 }
