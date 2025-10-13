@@ -103,6 +103,6 @@ h2{
 }
 @media(max-width:480px){
     .checkout-left{
-    margin-right:20px;
+    margin-left:20px;
     } 
 }
