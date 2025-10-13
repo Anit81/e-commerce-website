@@ -107,7 +107,7 @@ Welcome to our story. Welcome to a world where fashion meets identity.
           alt="Elegant Gown"
         />
           <h3>Gown Sale 30% Off</h3>
-          <button><Link to='shop'>Shop Now</Link></button>
+          <button><Link to='/shop'>Shop Now</Link></button>
         </div>
         <div>
          <img
@@ -115,7 +115,7 @@ Welcome to our story. Welcome to a world where fashion meets identity.
           alt="Elegant Gown"
         />
           <h3>Exclusive Tops 15% Off</h3>
-          <button><Link to='shop'>Shop Now</Link></button>
+          <button><Link to='/shop'>Shop Now</Link></button>
         </div>
       </section>
 
