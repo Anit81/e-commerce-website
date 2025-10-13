@@ -30,7 +30,7 @@ As we continue to grow, our commitment remains the same: to bring together artis
 <br />
 Welcome to our story. Welcome to a world where fashion meets identity.
           </p>
-          <button>Shop Now</button>
+          <button><Link to="/shop">Shop Now</Link></button>
         </div>
       </section>
 
