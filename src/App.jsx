@@ -57,6 +57,7 @@ useEffect(() => {
       
       </header>
    <main className='page-container'>
+     <ScrollToTop />
     <Routes>
        <Route path="/" element={<HomeComponent />}></Route>
 
