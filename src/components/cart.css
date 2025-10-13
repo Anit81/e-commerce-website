@@ -160,12 +160,12 @@ border: none;
   flex-direction: column;
 }
   .cart-item-details p{
-  font-weight: 8px;
+  font-size: 12px;
 }
 
 .cart-item-price,
 .cart-item-qty {
-  font-size:8px;
+  font-size:12px;
 }
   .cart-right P{
     font-size: 12px;
