@@ -167,4 +167,7 @@ border: none;
 .cart-item-qty {
   font-size:8px;
 }
+  .cart-right P{
+    font-size: 12px;
+  }
 }
