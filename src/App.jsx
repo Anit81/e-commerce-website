@@ -1,3 +1,4 @@
+import ScrollToTop from "./scrollBar";
 import {Routes,Route} from 'react-router-dom';
 import { FaBars, FaTimes , FaShoppingCart} from "react-icons/fa";
 
