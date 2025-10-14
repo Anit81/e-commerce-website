@@ -16,7 +16,7 @@ export  function AboutComponent() {
       <section className="about-story">
         <div>
           <h2>Our Story</h2>
-          <p>
+          <p className="about-section">
             At <span className="brand-name">Tina's Collection</span>, 
             Every great brand begins with a dream, and ours started with a simple yet powerful vision: to create fashion that speaks to both individuality and timeless elegance. From the very beginning, we believed that clothing is more than just fabric—it’s a reflection of identity, confidence, and culture.
 
