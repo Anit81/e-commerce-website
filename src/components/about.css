@@ -28,16 +28,13 @@
 .about h2{
   text-align: center;
 }
-.about-section{
-  color:white;
-  width:80%;
-  margin:0 auto;
-  font-size:17px;
-  text-align: center;
+.about-section {
+  text-align: justify;
+  line-height: 1.7; /* improves readability */
+  letter-spacing: 0.3px; /* optional for elegance */
+  word-spacing: 1px; /* optional for balance */
 }
-.about-section span{
-  width:80%;
-}
+
 .about button{
   display: flex;
   margin: 0 auto;
