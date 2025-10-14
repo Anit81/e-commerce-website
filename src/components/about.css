@@ -28,6 +28,12 @@
 .about h2{
   text-align: center;
 }
+.about-section{
+     color:white;
+        width:80%;
+        margin:0 auto;
+        font-size:17px;
+}
 .about p{
   text-align: center;
 }
