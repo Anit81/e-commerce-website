@@ -35,6 +35,9 @@
   font-size:17px;
   text-align: center;
 }
+.about-section span{
+  width:80%;
+}
 .about button{
   display: flex;
   margin: 0 auto;
