@@ -62,20 +62,20 @@
 }
 
 /* Story */
-.about-story {
+.about-stoy {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
   padding: 60px 20px;
 }
 
-.about-stoy img {
+.about-stoy ig {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.6);
 }
 
-.about-stoy div {
+.about-stoy di {
   text-align: left;
 }
 
