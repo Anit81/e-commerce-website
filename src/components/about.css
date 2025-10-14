@@ -69,28 +69,28 @@
   padding: 60px 20px;
 }
 
-.about-story img {
+.about-stoy img {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.6);
 }
 
-.about-story div {
+.about-stoy div {
   text-align: left;
 }
 
-.about-story h2 {
+.about-stoy h2 {
   font-size: 2rem;
   margin-bottom: 15px;
 }
 
-.about-story p {
+.about-stry p {
   margin-bottom: 20px;
   line-height: 1.6;
   color: #ddd;
 }
 
-.about-story .brand-name {
+.about-stoy .brad-name {
   color: #f06292;
   font-weight: bold;
 }
