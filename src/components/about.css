@@ -1,48 +1,71 @@
+/* === GLOBAL ABOUT SECTION === */
 .about {
   background: #111;
   color: #fff;
   font-family: Arial, sans-serif;
 }
 
+/* === HEADER === */
 .about-header {
-  background-image: url('/images/30487f0ddedd4779e5579889f9b3f3be.jpg');
-  background-repeat: no-repeat; 
-  background-size: cover;    
-  background-position: cente;    
-  display: flex;        
-  align-items: center; 
-   justify-content: center;        
+  background: url('/images/30487f0ddedd4779e5579889f9b3f3be.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  height: 100vh;
   padding: 60px 20px;
-  height:100vh;
-  color: white;
   margin-top: 100px;
+  color: #fff;
 }
-
 
 .about-header h1 {
   font-size: 4rem;
-  padding-bottom: 10px;
-  
+  margin-bottom: 10px;
 }
-.about h2{
+
+/* === TEXT ALIGNMENTS === */
+.about h2 {
   text-align: center;
 }
+
+/* === STORY SECTION === */
+.about-story {
+  padding: 60px 20px;
+}
+
 .about-section {
   text-align: justify;
-  line-height: 1.7; /* improves readability */
-  letter-spacing: 0.3px; /* optional for elegance */
-  word-spacing: 1px; /* optional for balance */
-}
-
-.about button{
-  display: flex;
+  line-height: 1.7;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  max-width: 900px;
   margin: 0 auto;
+  color: #ddd;
 }
 
+.about-story button {
+  display: flex;
+  margin: 20px auto 0;
+  background: #ff4f9a;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
 
+.about-story button:hover {
+  background: #e91e63;
+}
 
-/* Stats */
+.brand-name {
+  font-weight: bold;
+  color: #ff4f9a;
+}
+
+/* === STATS SECTION === */
 .about-stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -61,55 +84,7 @@
   color: #ccc;
 }
 
-/* Story */
-.about-stoy {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  padding: 60px 20px;
-}
-
-.about-stoy ig {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.6);
-}
-
-.about-stoy di {
-  text-align: left;
-}
-
-.about-stoy h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.about-stry p {
-  margin-bottom: 20px;
-  line-height: 1.6;
-  color: #ddd;
-}
-
-.about-stoy .brad-name {
-  color: #f06292;
-  font-weight: bold;
-}
-
-.about-story button {
-  background: #f06292;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  cursor: pointer;
-  color: #fff;
-  font-size: 1rem;
-}
-
-.about-story button:hover {
-  background: #e91e63;
-}
-
-/* Benefits */
+/* === BENEFITS SECTION === */
 .about-benefits {
   background: #222;
   padding: 50px 20px;
@@ -136,8 +111,9 @@
   color: #aaa;
 }
 
+/* === MISSION SECTION === */
 .about-mission {
-  background-color: #111;   /* dark background */
+  background: #111;
   color: #fff;
   padding: 60px 20px;
   text-align: center;
@@ -146,7 +122,7 @@
 .about-mission h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #ff4f9a; /* highlight color */
+  color: #ff4f9a;
 }
 
 .about-mission p {
@@ -157,41 +133,38 @@
   color: #ddd;
 }
 
-.brand-name {
-  font-weight: bold;
-  color: #ff4f9a;
-}
-
+/* === LIFESTYLE IMAGE === */
 .about-lifestyle {
   width: 100%;
-  height: 0vh; 
-  overflow: hidden;
   margin: 40px 0;
 }
 
-.about-lifestyle .lifestyle-img {
-  width:100%;
-  height: 100%;
-  object-fit: cover;   /* keeps proportions while filling space */
-  border-radius: 10px; /* smooth edges */
+.lifestyle-img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
 
-
-/* Promo */
+/* === PROMO SECTION === */
 .about-promo {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   padding: 60px 20px;
 }
-.about-promo img{
-  width: 50%;
-}
+
 .about-promo div {
   background: #333;
   padding: 30px;
   text-align: center;
   border-radius: 10px;
+}
+
+.about-promo img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .about-promo h3 {
@@ -200,44 +173,36 @@
 }
 
 .about-promo button {
-  background: #f06292;
+  background: #ff4f9a;
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
   cursor: pointer;
   color: #fff;
+  transition: background 0.3s;
 }
 
 .about-promo button:hover {
   background: #e91e63;
 }
-a{
-  text-decoration:none;
-  list-style:none;
-  color:white;
+
+/* === LINKS === */
+a {
+  text-decoration: none;
+  color: white;
 }
 
+/* === RESPONSIVE DESIGN === */
 @media (max-width: 1024px) {
   .about-header h1 {
     font-size: 3rem;
   }
-  .about-story {
-    grid-template-columns: 1fr; /* stack image + text */
-    text-align: center;
-  }
-  .about-story div {
-    text-align: center;
-  }
-  .about-promo {
-    grid-template-columns: 1fr; /* stack promos */
-  }
 }
-
 
 @media (max-width: 768px) {
   .about-header {
+    height: 60vh;
     padding: 40px 10px;
-    height: 60vh; 
   }
   .about-header h1 {
     font-size: 2.2rem;
@@ -250,7 +215,6 @@ a{
   }
 }
 
-
 @media (max-width: 480px) {
   .about-header {
     margin-top: 60px;
@@ -261,30 +225,11 @@ a{
   }
   .about-story h2 {
     font-size: 1.5rem;
-    
   }
   .about-promo h3 {
     font-size: 1.2rem;
   }
   .about-mission p {
-    font-size: 1rem;
-    width:80%;
-    text-align:center;
-    
-  }
-  .about-promo{
-    grid-template-columns:1fr;
-    width:100%;
-    height:80%;
-  }
-  .about-mission p{
-    padding-bottom:10px;
-    margin-bottom:10px;
-    width:100%;
-    text-align:center;
-  }
-  .about-promo img{
-   width: 100%;
-    height:80%;
+    width: 90%;
   }
 }
