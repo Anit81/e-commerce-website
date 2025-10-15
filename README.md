@@ -15,7 +15,7 @@ A React-based E-commerce web app that fetches products from an API and allows us
 - API Integration: Fetching product data from an external API
 
 ## How to Run Locally
-1. Clone the repository: `git clone <your-repo-link>`
+1. Clone the repository: `git clone <https://github.com/Anit81/e-commerce-website>`
 2. Navigate to the project folder: `cd e-commerce-app`
 3. Install dependencies: `npm install`
 4. Start the app: `npm start`
