@@ -22,7 +22,8 @@ A React-based E-commerce web app that fetches products from an API and allows us
 5. Open your browser at [http://localhost:3000](http://localhost:3000)
 
 ## Live Demo
-Check out the live app here: [https://your-vercel-link.vercel.app](e-commerce-website-orcin-tau.vercel.app)
+Check out the live app here: [https://your-vercel-link.vercel.app](https://e-commerce-website-fy4p.vercel.app/
+)
 
 ## Contact
 Created by **Ibesi Faustina**. Feel free to reach out via GitHub for feedback or collaboration.
