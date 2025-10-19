@@ -1,6 +1,6 @@
 
 .about {
-  background: #111;
+  backgrund: #111;
   color: #fff;
   font-family: Arial, sans-serif;
 }
@@ -13,7 +13,7 @@
   justify-content: center;
   text-align: center;
   height: 100vh;
-  marin-top:200px;
+
   padding: 160px 20px 60px; 
   color: #fff;
 }
