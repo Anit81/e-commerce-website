@@ -13,7 +13,7 @@
   justify-content: center;
   text-align: center;
   height: 100vh;
- 
+  marin-top:200px;
   padding: 160px 20px 60px; 
   color: #fff;
 }
