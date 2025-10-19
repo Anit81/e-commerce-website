@@ -1,11 +1,11 @@
-/* === GLOBAL ABOUT SECTION === */
+
 .about {
   background: #111;
   color: #fff;
   font-family: Arial, sans-serif;
 }
 
-/* === HEADER === */
+
 .about-header {
   background: url('/images/30487f0ddedd4779e5579889f9b3f3be.jpg') center/cover no-repeat;
   display: flex;
@@ -23,12 +23,10 @@
   margin-bottom: 10px;
 }
 
-/* === TEXT ALIGNMENTS === */
+
 .about h2 {
   text-align: center;
 }
-
-/* === STORY SECTION === */
 .about-story {
   padding: 60px 20px;
 }
@@ -65,7 +63,6 @@
   color: #ff4f9a;
 }
 
-/* === STATS SECTION === */
 .about-stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -84,7 +81,7 @@
   color: #ccc;
 }
 
-/* === BENEFITS SECTION === */
+
 .about-benefits {
   background: #222;
   padding: 50px 20px;
@@ -111,7 +108,6 @@
   color: #aaa;
 }
 
-/* === MISSION SECTION === */
 .about-mission {
   background: #111;
   color: #fff;
@@ -133,7 +129,7 @@
   color: #ddd;
 }
 
-/* === LIFESTYLE IMAGE === */
+
 .about-lifestyle {
   width: 100%;
   margin: 40px 0;
@@ -146,7 +142,7 @@
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
 
-/* === PROMO SECTION === */
+
 .about-promo {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -186,13 +182,12 @@
   background: #e91e63;
 }
 
-/* === LINKS === */
+
 a {
   text-decoration: none;
   color: white;
 }
 
-/* === RESPONSIVE DESIGN === */
 @media (max-width: 1024px) {
   .about-header h1 {
     font-size: 3rem;
