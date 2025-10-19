@@ -1,22 +1,22 @@
 
 .about {
-  backgrund: #111;
+  backgr0und: #111;
   color: #fff;
   font-family: Arial, sans-serif;
 }
 
-
 .about-header {
   background: url('/images/30487f0ddedd4779e5579889f9b3f3be.jpg') center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
-
-  padding: 160px 20px 60px; 
-  color: #fff;
+ display: flex; 
+  align-items:center; 
+  justify-content: center; 
+  text-align: center; 
+  height: 100vh; 
+  padding: 60px 20px; 
+  margin-top: 100px; 
+  color: #fff; 
 }
+
 
 .about-header h1 {
   font-size: 4rem;
